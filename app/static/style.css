@@ -1,0 +1,18 @@
+.username {
+  background-color: #00FF00;
+  weight: 2%;
+}
+
+.idade {
+  background-color: #FF0000;
+  margin-top: 1%;
+}
+
+.curso {
+  background-color: #0000FF;
+  margin-top: 1%;
+}
+
+h5 {
+  color: #000000;
+}

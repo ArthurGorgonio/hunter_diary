@@ -1,0 +1,29 @@
+version: '3.6'
+
+services:
+  core:
+    build: .
+    environment:
+      FLASK_ENV: development
+    networks:
+      - mongo
+    ports:
+      - 8000:5000
+    volumes:
+      - .:/app
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:4-xenial
+    networks:
+      - mongo
+    volumes:
+      - /var/docker/volumes/mongo:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: char
+      #      MONGO_INITDB_ROOT_USERNAME: sail
+      #      MONGO_INITDB_ROOT_PASSWORD: sail
+
+networks:
+  mongo:
