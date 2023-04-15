@@ -1,0 +1,17 @@
+Arma, mãos, dano, especial, tipo
+
+====== base weapons
+lança de guerra,1,3,,arremesso
+escudo,,,,
+arco simples,2,2,,distância
+marreta,2,6,,pesado
+adaga,1,2,,arremesso
+lança de cavalaria,1,5,,longo
+espada simples,1,3,,corpo
+machado,2,6,,pesado
+maça,1,3,,pesado
+espada longa,1,3,,torque
+
+====== advanced
+flechas de Rexian,, 1,flecha
+foice de Rexian, 2, 3, 3, pesado?

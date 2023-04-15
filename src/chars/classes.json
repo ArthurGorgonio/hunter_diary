@@ -1,0 +1,232 @@
+{
+  "academic": {
+    "max_life_points": 20,
+    "potions": {
+      "hp_potions": 2,
+      "resistence_potion": 1
+    },
+    "weapons": [
+      {
+        "type": "melee",
+        "name": "War Lance",
+        "class": "throwable",
+        "damage": 3,
+        "two_hands": false
+      },
+      {
+        "type": "range",
+        "name": "Simple Bow",
+        "class": "arrow",
+        "damage": 2,
+        "two_hands": true
+      }
+    ],
+    "gear": [
+      {
+        "class": "armor",
+        "name": "Chainmail",
+        "protection_points": 10
+      }
+    ],
+    "buffs": [
+      "Alchemy",
+      "Anathomy"
+    ]
+  },
+  "barbarian": {
+    "max_life_points": 30,
+    "potions": {
+      "hp_potions": 2
+    },
+    "weapons": [
+      {
+        "type": "melee",
+        "name": "Axe",
+        "class": "weighted",
+        "damage": 6,
+        "two_hands": true
+      },
+      {
+        "type": "range",
+        "name": "Simple Bow",
+        "class": "arrow",
+        "damage": 2,
+        "two_hands": true
+      }
+    ],
+    "gear": [
+    ],
+    "buffs": [
+      "Strength",
+      "Uncivilized"
+    ]
+  },
+  "blacksmith": {
+    "max_life_points": 22,
+    "potions": {
+      "hp_potions": 2
+    },
+    "weapons": [
+      {
+        "type": "melee",
+        "name": "Sledgehammer",
+        "class": "weighted",
+        "damage": 6,
+        "two_hands": true
+      },
+      {
+        "type": "melee",
+        "name": "Dagger",
+        "class": "throwable",
+        "damage": 2,
+        "two_hands": false
+      },
+      {
+        "type": "range",
+        "name": "Simple Bow",
+        "class": "arrow",
+        "damage": 2,
+        "two_hands": true
+      }
+    ],
+    "gear": [
+      {
+        "class": "armor",
+        "name": "Chainmail",
+        "protection_points": 10
+      }
+    ],
+    "buffs": [
+      "Smith",
+      "Strength"
+    ]
+  },
+  "hermit": {
+    "max_life_points": 22,
+    "potions": {
+      "hp_potions": 2
+    },
+    "weapons": [
+      {
+        "type": "melee",
+        "name": "Sword",
+        "class": "TBD",
+        "damage": 3,
+        "two_hands": false
+      },
+      {
+        "type": "melee",
+        "name": "Dagger",
+        "class": "throwable",
+        "damage": 2,
+        "two_hands": false
+      },
+      {
+        "type": "range",
+        "name": "War Bow",
+        "class": "arrow",
+        "damage": 3,
+        "two_hands": true
+      }
+    ],
+    "gear": [
+      {
+        "class": "armor",
+        "name": "Leather Armor",
+        "protection_points": 8
+      }
+    ],
+    "buffs": [
+      "Companion",
+      "Stealth"
+    ]
+  },
+  "mystic": {
+    "max_life_points": 20,
+    "potions": {
+      "hp_potions": 2,
+      "resistence_potion": 1
+    },
+    "weapons": [
+      {
+        "type": "melee",
+        "name": "Mace",
+        "class": "weighted",
+        "damage": 3,
+        "two_hands": false
+      },
+      {
+        "type": "melee",
+        "name": "Dagger",
+        "class": "throwable",
+        "damage": 2,
+        "two_hands": false
+      },
+      {
+        "type": "range",
+        "name": "Simple Bow",
+        "class": "arrow",
+        "damage": 2,
+        "two_hands": true
+      }
+    ],
+    "gear": [
+      {
+        "class": "armor",
+        "protection_points": 10
+      }
+    ],
+    "buffs": [
+      "Arcane Vision",
+      "Magic"
+    ]
+  },
+  "noble": {
+    "max_life_points": 20,
+    "potions": {
+      "hp_potions": 2,
+      "resistence_potion": 1
+    },
+    "weapons": [
+      {
+        "type": "riding",
+        "name": "Spear",
+        "class": "long",
+        "damage": 5,
+        "two_hands": false
+      },
+      {
+        "type": "melee",
+        "name": "Sword",
+        "class": "TBD",
+        "damage": 3,
+        "two_hands": false
+      },
+      {
+        "type": "melee",
+        "name": "Shield",
+        "class": "shield",
+        "damage": 0,
+        "two_hands": false
+      },
+      {
+        "type": "range",
+        "name": "Simple Bow",
+        "class": "arrow",
+        "damage": 2,
+        "two_hands": true
+      }
+    ],
+    "gear": [
+      {
+        "class": "armor",
+        "name": "Chainmail",
+        "protection_points": 10
+      }
+    ],
+    "buffs": [
+      "Mounter",
+      "Status"
+    ]
+  }
+}
