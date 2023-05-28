@@ -1,0 +1,25 @@
+{
+  "classes": {
+    "academic": "Acadêmico",
+    "barbarian": "Bárbaro",
+    "blacksmith": "Ferreiro",
+    "hermit": "Eremita",
+    "mystic": "Místico",
+    "noble": "Nobre"
+  },
+  "error": {
+    "key_not_found": "Tradução não encontrada"
+  },
+  "description": {
+    "academic": [
+      "You've spent your life with your face buried in books. You may have",
+      " studied from an early age in an academy or under the tutelage of a",
+      " sage. You can use your knowledge to craft more effective equipment",
+      " and potions."
+    ]
+  },
+  "player": {
+    "available": "Os seguintes personagens são válidos!",
+    "selection": "Seja Uélcomido para a tela de seleção de personagens!"
+  }
+}

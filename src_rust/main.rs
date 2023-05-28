@@ -3,7 +3,7 @@ struct Rectangle {
     height: u32,
 }
 
-impl Rectangle {    
+impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.height
     }

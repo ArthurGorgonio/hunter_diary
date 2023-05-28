@@ -18,3 +18,4 @@ venv
 .vscode/
 
 
+*.txt

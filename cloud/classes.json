@@ -23,6 +23,10 @@
     ],
     "gear": [
       {
+        "name": "Shield",
+        "class": "shield"
+      },
+      {
         "class": "armor",
         "name": "Chainmail",
         "protection_points": 10
@@ -106,6 +110,23 @@
     "potions": {
       "hp_potions": 2
     },
+    "companion": [
+      {
+        "max_life_points": 10,
+        "damage": 2,
+        "type": "aggressive"
+      },
+      {
+        "max_life_points": 8,
+        "damage": 1,
+        "type": "flying"
+      },
+      {
+        "max_life_points": 10,
+        "damage": 1,
+        "type": "tracker"
+      }
+    ],
     "weapons": [
       {
         "type": "melee",
@@ -203,13 +224,6 @@
         "two_hands": false
       },
       {
-        "type": "melee",
-        "name": "Shield",
-        "class": "shield",
-        "damage": 0,
-        "two_hands": false
-      },
-      {
         "type": "range",
         "name": "Simple Bow",
         "class": "arrow",
@@ -218,6 +232,10 @@
       }
     ],
     "gear": [
+      {
+        "name": "Shield",
+        "class": "shield"
+      },
       {
         "class": "armor",
         "name": "Chainmail",

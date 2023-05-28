@@ -20,7 +20,7 @@ class HerosTest(TestCase):
         self.assertEqual(30, base_player.life_points)
         self.assertEqual(30, base_player.max_life_points)
         self.assertEqual(0, base_player.potions)
-        self.assertEqual(None, base_player.equips)
+        self.assertEqual([], base_player.equips)
 
     def test_create_basic_char_info_raise_when_damage_is_lower_than_zero(self):
         """

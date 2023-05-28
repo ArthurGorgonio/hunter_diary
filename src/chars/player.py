@@ -1,4 +1,4 @@
-from src.bag.weapons.weapon import Weapon
+from src.bag.weapon import Weapon
 
 from .basechar import BaseChar
 
@@ -9,16 +9,16 @@ class PlayerChar(BaseChar):
     def __init__(
         self,
         **kargs,
-    ):
+    ) -> None:
         super().__init__(
             kargs.get("max_life_points", -1),
             kargs.get("damage", 0)
         )
-        self.name = kargs.get("name", "Lucian")
+        self.name: str = kargs.get("name", "Lucian")
         self.potions = kargs.get("hp_potions", 0)
         self.fatigue = 0
         self.equips = kargs.get("weapons", None)
-        self.class_name = kargs.get("class_name")
+        self.class_name: str = kargs.get("class_name", "")
 
     def __str__(self):
         msg = (

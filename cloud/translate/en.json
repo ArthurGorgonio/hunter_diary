@@ -1,0 +1,25 @@
+{
+  "classes": {
+    "academic": "Academic",
+    "barbarian": "Barbarian",
+    "blacksmith": "Blacksmith",
+    "hermit": "Hermit",
+    "mystic": "Mystic",
+    "noble": "Noble"
+  },
+  "description": {
+    "academic": [
+      "You've spent your life with your face buried in books. You may have",
+      " studied from an early age in an academy or under the tutelage of a",
+      " sage. You can use your knowledge to craft more effective equipment",
+      " and potions."
+    ]
+  },
+  "error": {
+    "key_not_found": "Not Found a translation"
+  },
+  "player": {
+    "available": "Following classes are available!",
+    "selection": "Welcome to char creaton!"
+  }
+}
